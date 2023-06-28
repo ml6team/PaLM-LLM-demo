@@ -1,0 +1,5 @@
+google-generativeai # palm api public preview
+google-cloud-aiplatform # palm api in vertex ai
+elasticsearch
+elasticsearch-dsl
+python-dotenv
