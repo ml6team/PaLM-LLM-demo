@@ -20,4 +20,4 @@ Steps:
 
 Steps:
 * Populate elasticsearch using `python3 -m src.ingest --input-file=data/documents_10k.tsv` (or any TSV file of choice). Keep in mind that this can take several minutes as it embeds and stores 10k passages (subset from the MS MARCO dataset).
-* To locally serve a Flask app with the chatbot, run `python3 -m app.app`.
+* To locally serve a Flask app with the chatbot and RAG, run `python3 -m app.app`. To run a plain chatbot without RAG functionality, add the `--no-rag` argument.
