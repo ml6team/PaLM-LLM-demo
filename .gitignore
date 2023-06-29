@@ -51,8 +51,8 @@ Thumbs.db
 # Certificates
 *.crt
 
-# Environment files
-*.env
+# Environment file
+.env
 
 # VS Code
 .vscode/
