@@ -13,7 +13,7 @@ From the PaLM 2 API, we adopted the `textembedding-gecko` model to create embedd
 
 Steps:
 * Install elasticsearch with Docker (see [commands.sh](commands.sh))
-* Set environment variables ES_HOST, ES_USER, ES_PASS in an .env file, based on the elasticsearch.
+* Use the example.env file to create an .env file with environment variables ES_HOST, ES_USER, ES_PASS, and GCP_PROJECT§, based on the elasticsearch installation.
 * Enable the Vertex AI API in your Google Console.
 
 # Running the Applications
