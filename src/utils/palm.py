@@ -3,8 +3,13 @@
 import textwrap
 
 from typing import List
+from google.cloud import aiplatform
 from vertexai.preview.language_models import TextGenerationModel, TextEmbeddingModel, ChatModel
 
+
+from src import config
+
+aiplatform.init(project=config.GCP_PROJECT)
 
 embedding_model = TextEmbeddingModel.from_pretrained("textembedding-gecko@001")
 text_model = TextGenerationModel.from_pretrained("text-bison@001")
